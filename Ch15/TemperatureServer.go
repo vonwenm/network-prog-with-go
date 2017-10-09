@@ -11,7 +11,9 @@ import (
 	"time"
 )
 
-var ROOT_DIR = "/home/httpd/html/golang-hidden/websockets"
+//var ROOT_DIR = "/home/httpd/html/golang-hidden/websockets"
+
+var ROOT_DIR = "C:\\Users\\Marcelle\\Desktop\\gonet\\Ch15"
 
 func GetTemp(ws *websocket.Conn) {
 	for {
